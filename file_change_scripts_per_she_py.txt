@@ -1,0 +1,22 @@
+#Perl script
+$i = 0;
+foreach $_(@ARGV)
+{
+  rename($_, "EshanAbbas_$_$i.txt");
+  $i++;
+}
+
+
+#Shell Script
+rename -n 's/(.*)\.txt$/EshanAbbas_$1.txt/' *.txt
+
+
+#Python Script
+import os
+path = "path directory"
+os.chdir(path)
+files = os.listdir(path)
+i = 1
+for file in files:
+    os.rename(file,"Eshan Abbas" + "_" + str(i) + '.txt')
+    i = i + 1
