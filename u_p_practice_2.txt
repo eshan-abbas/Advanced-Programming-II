@@ -1,0 +1,177 @@
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ ls
+'$RECYCLE.BIN'                    'Phone backup'                  dControl.zip
+'Advanced Programming II Python'  'Project Presentation Images'   dna_text_files
+ Anaconda                          RNA_sequencing                 etenbr_tools
+ Audio                             RStudio                        inSCIgnis
+ Bioinformatics                    R_files                        photos
+'Books and Journals'              'STEM Eclipse'                  python
+ Custom_R_packages                 Sequator                       scikit_learn_script
+ Github                           'System Volume Information'     shell_scripting
+ PPT                               TIIP                           u-p-directory
+'Perl files'                       dControl
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ ls -R 'Perl files'/
+'Perl files/':
+E_coli_laz_z_g_363231_366305.fasta  Semester_7_Var_array.pl      roa1.blast
+MBI18008_BI339_endterm.pl           dinucleotide_energy_calc.pl  roa1.fasta
+MBI18008_start_stop_codon.pl        file_change.pl               sample_sequence.fna
+NC_000913.fna                       g_quadruplex_calc.pl         script_4.txt
+NC_000913_reverse.txt               laz_z_reverse_01.txt         seqio_nucl_position
+Project_Polyxia_1.pl                laz_z_reverse_02.txt         seqio_nucl_position.pl
+Project_Polyxia_2.pl                laz_z_reverse_03.txt         sequence.fasta
+Project_Polyxia_3.pl                laz_z_reverse_04.fasta       sequence_reverse.pl
+Project_Polyxia_4.pl                laz_z_reverse_04.txt         sequence_reverse_2
+Project_Polyxia_5.pl                loop_in_perl.pl              sequence_reverse_4.pl
+Project_Polyxia_SL-6.pl             new.pl                       substr_hash_sort_counting.pl
+Project_Polyxia_SL-7.pl             perl_file_analysis.pl        tr_operator.pl
+SL_15.txt                           perl_file_handling.pl        trf.txt
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ ls -R 'Perl files'
+'Perl files':
+E_coli_laz_z_g_363231_366305.fasta  Semester_7_Var_array.pl      roa1.blast
+MBI18008_BI339_endterm.pl           dinucleotide_energy_calc.pl  roa1.fasta
+MBI18008_start_stop_codon.pl        file_change.pl               sample_sequence.fna
+NC_000913.fna                       g_quadruplex_calc.pl         script_4.txt
+NC_000913_reverse.txt               laz_z_reverse_01.txt         seqio_nucl_position
+Project_Polyxia_1.pl                laz_z_reverse_02.txt         seqio_nucl_position.pl
+Project_Polyxia_2.pl                laz_z_reverse_03.txt         sequence.fasta
+Project_Polyxia_3.pl                laz_z_reverse_04.fasta       sequence_reverse.pl
+Project_Polyxia_4.pl                laz_z_reverse_04.txt         sequence_reverse_2
+Project_Polyxia_5.pl                loop_in_perl.pl              sequence_reverse_4.pl
+Project_Polyxia_SL-6.pl             new.pl                       substr_hash_sort_counting.pl
+Project_Polyxia_SL-7.pl             perl_file_analysis.pl        tr_operator.pl
+SL_15.txt                           perl_file_handling.pl        trf.txt
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ pwd
+/mnt/d
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ cd 'u-p-directory'/
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory$ ls
+f1  f2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory$ cd f2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f2$ ls
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f2$ cd ..
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory$ cd f1
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1$ ls
+f2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1$ cd f2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ ls
+Storage  Storage2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ rm -i Storage
+rm: cannot remove 'Storage': Is a directory
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ cd Storage
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1.txt  file2.txt  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ pwd
+/mnt/d/u-p-directory/f1/f2/Storage
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ rm -i file3
+rm: remove regular empty file 'file3'? y
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ rm -i *.txt
+rm: remove regular empty file 'file1.txt'? y
+rm: remove regular empty file 'file2.txt'? y
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ touch file1
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ cp file1 file2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1  file2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ touch ~/file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1  file2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ cp ~/file3
+cp: missing destination file operand after '/home/taskmaster/file3'
+Try 'cp --help' for more information.
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ cp ~/file3 .
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1  file2  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1  file2  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls .
+file1  file2  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls ./
+file1  file2  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ cp file* ~/
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1  file2  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls ~/
+MBI18008_2  MBI18008_3  file1  file1.txt  file2  file2.txt  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ cd ~/
+taskmaster@LAPTOP-44JO38V4:~$ pwd
+/home/taskmaster
+taskmaster@LAPTOP-44JO38V4:~$ cd /mnt/d/'u-p-directory'/f1/f2/Storage
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ ls
+file1  file2  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2/Storage$ cd ..
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ ls
+Storage  Storage2
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ ls Storage Storage2
+Storage:
+file1  file2  file3
+
+Storage2:
+file1.txt  file2.txt  file3
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ ls Codee
+ls: cannot access 'Codee': No such file or directory
+taskmaster@LAPTOP-44JO38V4:/mnt/d/u-p-directory/f1/f2$ cd ../../../..
+taskmaster@LAPTOP-44JO38V4:/mnt$ cd d
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ ls
+'$RECYCLE.BIN'                    'Phone backup'                  dControl.zip
+'Advanced Programming II Python'  'Project Presentation Images'   dna_text_files
+ Anaconda                          RNA_sequencing                 etenbr_tools
+ Audio                             RStudio                        inSCIgnis
+ Bioinformatics                    R_files                        photos
+'Books and Journals'              'STEM Eclipse'                  python
+ Custom_R_packages                 Sequator                       scikit_learn_script
+ Github                           'System Volume Information'     shell_scripting
+ PPT                               TIIP                           u-p-directory
+'Perl files'                       dControl
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ cd 'Perl files'/
+taskmaster@LAPTOP-44JO38V4:/mnt/d/Perl files$ ls
+E_coli_laz_z_g_363231_366305.fasta  Semester_7_Var_array.pl      roa1.blast
+MBI18008_BI339_endterm.pl           dinucleotide_energy_calc.pl  roa1.fasta
+MBI18008_start_stop_codon.pl        file_change.pl               sample_sequence.fna
+NC_000913.fna                       g_quadruplex_calc.pl         script_4.txt
+NC_000913_reverse.txt               laz_z_reverse_01.txt         seqio_nucl_position
+Project_Polyxia_1.pl                laz_z_reverse_02.txt         seqio_nucl_position.pl
+Project_Polyxia_2.pl                laz_z_reverse_03.txt         sequence.fasta
+Project_Polyxia_3.pl                laz_z_reverse_04.fasta       sequence_reverse.pl
+Project_Polyxia_4.pl                laz_z_reverse_04.txt         sequence_reverse_2
+Project_Polyxia_5.pl                loop_in_perl.pl              sequence_reverse_4.pl
+Project_Polyxia_SL-6.pl             new.pl                       substr_hash_sort_counting.pl
+Project_Polyxia_SL-7.pl             perl_file_analysis.pl        tr_operator.pl
+SL_15.txt                           perl_file_handling.pl        trf.txt
+taskmaster@LAPTOP-44JO38V4:/mnt/d/Perl files$ less E_coli_laz_z_g_363231_366305.fasta
+taskmaster@LAPTOP-44JO38V4:/mnt/d/Perl files$ less E_coli_laz_z_g_363231_366305.fasta
+taskmaster@LAPTOP-44JO38V4:/mnt/d/Perl files$ ls -p
+E_coli_laz_z_g_363231_366305.fasta  Semester_7_Var_array.pl      roa1.blast
+MBI18008_BI339_endterm.pl           dinucleotide_energy_calc.pl  roa1.fasta
+MBI18008_start_stop_codon.pl        file_change.pl               sample_sequence.fna
+NC_000913.fna                       g_quadruplex_calc.pl         script_4.txt
+NC_000913_reverse.txt               laz_z_reverse_01.txt         seqio_nucl_position
+Project_Polyxia_1.pl                laz_z_reverse_02.txt         seqio_nucl_position.pl
+Project_Polyxia_2.pl                laz_z_reverse_03.txt         sequence.fasta
+Project_Polyxia_3.pl                laz_z_reverse_04.fasta       sequence_reverse.pl
+Project_Polyxia_4.pl                laz_z_reverse_04.txt         sequence_reverse_2
+Project_Polyxia_5.pl                loop_in_perl.pl              sequence_reverse_4.pl
+Project_Polyxia_SL-6.pl             new.pl                       substr_hash_sort_counting.pl
+Project_Polyxia_SL-7.pl             perl_file_analysis.pl        tr_operator.pl
+SL_15.txt                           perl_file_handling.pl        trf.txt
+taskmaster@LAPTOP-44JO38V4:/mnt/d/Perl files$ cd ..
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ ls -p
+'$RECYCLE.BIN'/                    'Phone backup'/                  dControl.zip
+'Advanced Programming II Python'/  'Project Presentation Images'/   dna_text_files/
+ Anaconda/                          RNA_sequencing/                 etenbr_tools/
+ Audio/                             RStudio/                        inSCIgnis/
+ Bioinformatics/                    R_files/                        photos/
+'Books and Journals'/              'STEM Eclipse'/                  python/
+ Custom_R_packages/                 Sequator/                       scikit_learn_script/
+ Github/                           'System Volume Information'/     shell_scripting/
+ PPT/                               TIIP/                           u-p-directory/
+'Perl files'/                       dControl/
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ alias ls='ls -p'
+taskmaster@LAPTOP-44JO38V4:/mnt/d$ ls
+'$RECYCLE.BIN'/                    'Phone backup'/                  dControl.zip
+'Advanced Programming II Python'/  'Project Presentation Images'/   dna_text_files/
+ Anaconda/                          RNA_sequencing/                 etenbr_tools/
+ Audio/                             RStudio/                        inSCIgnis/
+ Bioinformatics/                    R_files/                        photos/
+'Books and Journals'/              'STEM Eclipse'/                  python/
+ Custom_R_packages/                 Sequator/                       scikit_learn_script/
+ Github/                           'System Volume Information'/     shell_scripting/
+ PPT/                               TIIP/                           u-p-directory/
+'Perl files'/                       dControl/
