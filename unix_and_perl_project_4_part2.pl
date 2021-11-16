@@ -7,7 +7,6 @@ open(FH, "multiple_protein_sequence.fasta") || die "The file cannot be opened";
 chomp(@arr);
 $protein_sequence = join("\n", @arr);
 @list = split(">", $protein_sequence);
-print "\n";
 foreach $i (@list)
 {
   if ($i =~ /PTT/)
