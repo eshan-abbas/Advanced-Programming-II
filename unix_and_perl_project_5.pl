@@ -1,4 +1,5 @@
 # project 5
+# Execute the file in the terminal
 # unix_and_perl_project_0.pl by Eshan Abbas, MBI18008
 print "Select value of k: ";
 $k = <STDIN>;
